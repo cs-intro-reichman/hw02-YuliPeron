@@ -5,5 +5,14 @@
 public class InOrder {
 	public static void main (String[] args) {
 		//// Write your code here
+
+		int randomA = (int)((Math.random()) * 10 );
+		int randomB = randomA;
+		while(randomA > randomB || randomA == randomB)
+		{
+			System.out.println(randomA);
+			randomB = randomA;
+			randomA = (int)((Math.random()) * 10 );
+		}
 	}
 }
