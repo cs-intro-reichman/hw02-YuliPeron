@@ -23,7 +23,7 @@ public class Perfect {
 		}
 		else
 		{
-			System.out.println(n +" is not perfect number ");
+			System.out.println( " " + n +" is not perfect number");
 		}
 	}
 }
